@@ -12,7 +12,7 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.6);
 }
 h1 {
   font-size: 50px;
@@ -109,7 +109,6 @@ h1 {
 .section-2-body {
   width: 75%;
   padding-left: 12%;
-  margin-bottom: 300px;
 }
 .section-2-container {
   padding-top: 2%;
@@ -117,10 +116,15 @@ h1 {
 .arrow-section-2 {
   color: black;
 }
-.about-me-photo {
+.avatar {
   border-radius: 100%;
   width: 200px;
   height: 200px;
+}
+.avatar-div {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 .card-section {
   display: flex;
@@ -162,4 +166,23 @@ h1 {
 }
 .section-3-container {
   padding-top: 2%;
+}
+.down-arrow-section-3 {
+  color: rgba(255, 255, 255, .3);
+  font-size: 75px;
+  position: relative;
+  text-align: center;
+  transform: rotate(180deg);
+  padding-bottom: 200px;
+}
+.section-4 {
+  background-color: #FFF;
+  align-content: center;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}
+.section-4-container {
+  text-align: center;
+  padding-top: 50px;
 }
