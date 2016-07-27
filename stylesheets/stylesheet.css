@@ -186,3 +186,12 @@ h1 {
   text-align: center;
   padding-top: 50px;
 }
+.website-table {
+  width: 100%;
+  align-self: center;
+  padding-top: 100px;
+}
+.website-logo {
+  width: 175px;
+  height: 50px;
+}
