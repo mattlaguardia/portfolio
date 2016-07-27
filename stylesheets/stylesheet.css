@@ -90,10 +90,10 @@ h1 {
 .space {
   padding-left: 100px;
 }
-.plus-sign {
+.down-arrow {
   color: rgba(255, 255, 255, .3);
   font-size: 75px;
-  padding-bottom: 300px;
+  position: relative;
   text-align: center;
   transform: rotate(180deg);
 }
@@ -109,9 +109,18 @@ h1 {
 .section-2-body {
   width: 75%;
   padding-left: 12%;
+  margin-bottom: 300px;
 }
 .section-2-container {
   padding-top: 2%;
+}
+.arrow-section-2 {
+  color: black;
+}
+.about-me-photo {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
 }
 .card-section {
   display: flex;
@@ -135,4 +144,22 @@ h1 {
   text-align: left;
   padding-left: 30%;
   padding-top: 10px;
+}
+.section-3 {
+  background-color: #292929;
+  color: ghostwhite;
+  align-content: center;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}
+.section-3-header {
+  text-align: center;
+}
+.section-3-body {
+  width: 75%;
+  padding-left: 12%;
+}
+.section-3-container {
+  padding-top: 2%;
 }
