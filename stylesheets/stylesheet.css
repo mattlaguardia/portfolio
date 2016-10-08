@@ -114,10 +114,13 @@ h1 {
 .section-2-container {
   padding-top: 2%;
   display: flex;
+  z-index: 1;
 }
 .arrow-section-2 {
+  position: absolute;
   color: black;
-  padding-bottom: 120px;
+  padding: inherit;
+  /*z-index: 2;*/
 }
 .avatar {
   border-radius: 100%;
@@ -190,7 +193,6 @@ h1 {
 .website-table {
   width: 100%;
   align-self: center;
-  padding-top: 100px;
 }
 .website-logo {
   width: 175px;
