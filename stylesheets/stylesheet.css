@@ -35,37 +35,6 @@ h1 {
   background-color: rgba(255, 255, 255, 0.2);
   border-color: rgba(255, 255, 255, 0.3);
 }
-/* Parallax base styles
---------------------------------------------- */
-.parallax {
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  -webkit-perspective: 1px;
-  perspective: 1px;
-}
-.parallax__layer {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-.parallax__layer--base {
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-}
-.parallax__layer--back {
-  -webkit-transform: translateZ(-1px);
-  transform: translateZ(-1px);
-}
-.parallax {
-  font-size: 200%;
-}
- /* add some padding to force scrollbars */
-.parallax__layer {
-  padding: 100vh 0;
-}
 .container {
   background-color: #174C4F;
   display: flex;
