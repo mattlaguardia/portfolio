@@ -131,6 +131,7 @@ h1 {
   width: 100%;
 }
 .section-3-header {
+  display: flex;
   text-align: center;
 }
 .section-3-body {
@@ -187,4 +188,24 @@ h1 {
 .pulse {
     -webkit-animation-name: pulse;
     animation-name: pulse;
+}
+/*
+ * Blink animation
+*/
+.blink h1 {
+  overflow: hidden;
+  border-right: 2px solid #fff;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation:
+    typing 7s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #fff }
 }
