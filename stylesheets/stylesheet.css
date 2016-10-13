@@ -265,3 +265,25 @@ h1 {
   from, to { border-color: transparent }
   50% { border-color: #fff }
 }
+@media (max-height: 550px){
+  div {
+    font-size: 12px !important;
+  }
+  svg {
+    height: 0;
+    width: 0;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  .avatar {
+    width: 70px;
+    height: 70px;
+  }
+  .section-2-header {
+    padding-top: 50px;
+  }
+  .section-2-container {
+    padding-top: 0px;
+  }
+}

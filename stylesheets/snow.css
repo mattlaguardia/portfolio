@@ -134,3 +134,8 @@
 			#EEEEEE 90px 35px;
 	}
 }
+@media (max-height: 500px){
+	div.snowy {
+		display: none;
+	}
+}
