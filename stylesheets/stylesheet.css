@@ -254,13 +254,9 @@ h1 {
   white-space: nowrap;
   margin: 0 auto;
   animation:
-    typing 7s steps(40, end),
-    blink-caret .75s step-end infinite;
+    /*typing 7s steps(40, end),*/
+    blink-caret .75s infinite;
 }
-/*@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}*/
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: #fff }
