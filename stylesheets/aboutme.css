@@ -1,0 +1,46 @@
+.svg-wrapper {
+  height: 60px;
+	margin: 0 auto;
+  position: relative;
+  top: 10%;
+  transform: translateY(-50%);
+  width: 320px;
+}
+
+.shape {
+  fill: transparent;
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 5px;
+  stroke: #000;
+}
+
+.text {
+  line-height: 32px;
+  position: relative;
+  top: -85px;
+}
+
+@keyframes draw {
+  0% {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 5px;
+  }
+  50% {
+    stroke-dasharray: 760;
+    stroke-dashoffset: 0;
+    stroke-width: 2px;
+  }
+  100% {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 5px;
+  }
+}
+
+.svg-wrapper .shape {
+  -webkit-animation: 10s draw linear forwards;
+  animation: 10s draw linear forwards;
+  animation-iteration-count: infinite;
+}
