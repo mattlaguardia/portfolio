@@ -250,17 +250,15 @@ h1 {
 */
 .blink h1 {
   overflow: hidden;
-  border-right: 2px solid #fff;
+  /*border-right: 2px solid #fff;*/
   white-space: nowrap;
   margin: 0 auto;
-  animation:
-    /*typing 7s steps(40, end),*/
-    blink-caret .75s infinite;
+  /*animation: blink-caret .75s infinite;*/
 }
-@keyframes blink-caret {
-  from, to { border-color: transparent }
+/*@keyframes blink-caret {
+  0% { border-color: transparent }
   50% { border-color: #fff }
-}
+}*/
 @media (max-height: 550px){
   div {
     font-size: 12px !important;
